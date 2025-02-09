@@ -1,7 +1,8 @@
-# AI-Powered Payment Fraud Detection System  
+# AI-Powered Payment Fraud Detection Engine  
 
 ## Overview  
 This project is an AI-driven payment fraud detection system that utilizes a deep learning autoencoder to identify fraudulent transactions based on anomaly detection. It processes real-time payment data and flags suspicious transactions based on reconstruction error thresholds.  
+https://github.com/user-attachments/assets/7c70d8e7-6181-4249-9043-b9e6557d9264
 
 ## How It Works  
 1. **Data Processing**  
@@ -21,6 +22,7 @@ This project is an AI-driven payment fraud detection system that utilizes a deep
 4. **User Interface**  
    - Built with Tkinter for a simple desktop-based GUI.  
    - Displays real-time transaction statuses and fraud alerts.  
+![Image](https://github.com/user-attachments/assets/e454ad09-53e6-48ec-8b59-f273f07db1c1)
 
 ## Tech Stack  
 - **Programming Language:** Python  
