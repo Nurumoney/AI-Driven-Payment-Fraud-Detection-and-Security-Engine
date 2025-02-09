@@ -1,0 +1,2 @@
+# Cloud-Native-AI-Driven-Payment-Fraud-Detection-and-Security-Engine
+This project uses a deep learning autoencoder to detect fraudulent transactions. Trained on normal data, it identifies anomalies by measuring reconstruction errors. A real-time simulator streams transactions, flagging suspicious ones. Built with Tkinter, it provides an interactive interface for monitoring analyzing transaction statuses efficiently.
