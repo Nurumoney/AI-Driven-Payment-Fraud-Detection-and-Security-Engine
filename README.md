@@ -1,2 +1,52 @@
-# Cloud-Native-AI-Driven-Payment-Fraud-Detection-and-Security-Engine
-This project uses a deep learning autoencoder to detect fraudulent transactions. Trained on normal data, it identifies anomalies by measuring reconstruction errors. A real-time simulator streams transactions, flagging suspicious ones. Built with Tkinter, it provides an interactive interface for monitoring analyzing transaction statuses efficiently.
+# AI-Powered Payment Fraud Detection System  
+
+## Overview  
+This project is an AI-driven payment fraud detection system that utilizes a deep learning autoencoder to identify fraudulent transactions based on anomaly detection. It processes real-time payment data and flags suspicious transactions based on reconstruction error thresholds.  
+
+## How It Works  
+1. **Data Processing**  
+   - The system uses the Kaggle Credit Card Fraud Detection dataset.  
+   - Data is preprocessed to normalize features and remove irrelevant fields.  
+
+2. **Model Training**  
+   - A deep learning autoencoder is trained using TensorFlow/Keras.  
+   - The model learns patterns from non-fraudulent transactions.  
+   - Anomaly detection is performed by measuring reconstruction errors.  
+
+3. **Real-Time Transaction Simulation**  
+   - Transactions are streamed into the system in real-time.  
+   - Each transaction is processed by the trained model.  
+   - If the reconstruction error exceeds a predefined threshold, it is flagged as fraudulent.  
+
+4. **User Interface**  
+   - Built with Tkinter for a simple desktop-based GUI.  
+   - Displays real-time transaction statuses and fraud alerts.  
+
+## Tech Stack  
+- **Programming Language:** Python  
+- **Machine Learning Framework:** TensorFlow/Keras  
+- **GUI Framework:** Tkinter  
+- **Data Handling:** Pandas, NumPy  
+- **Model Deployment:** Pickle (for model storage)  
+
+## How to Use  
+1. **Install Dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+2. **Run the Application**  
+   ```bash
+   python main.py
+   ```  
+3. **Interact with the GUI**  
+   - View real-time transaction processing.  
+   - Fraudulent transactions will be flagged automatically.  
+
+## Dataset  
+- The system uses the [Kaggle Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud).  
+
+## Future Enhancements  
+- Integrating a more advanced deep learning model (e.g., LSTMs or Transformers).  
+- Adding cloud deployment with Flask/FastAPI for API-based fraud detection.  
+- Implementing Kafka for real-time transaction streaming at scale.  
+
