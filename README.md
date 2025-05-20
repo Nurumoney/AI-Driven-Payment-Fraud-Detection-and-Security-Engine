@@ -1,4 +1,4 @@
-# AI-Powered Payment Fraud Detection Engine  
+# AI-Driven Payment Fraud Detection Engine  
 
 ## Overview  
 This project is an AI-driven payment fraud detection system that leverages a deep learning autoencoder to identify anomalous transactions. It is built using Python with TensorFlow for the deep learning model, scikit‑learn for data preprocessing, and Pandas/NumPy for data manipulation. The autoencoder is trained solely on normal transactions from the Kaggle Credit Card Fraud Detection dataset so that it learns the inherent patterns of genuine payment behavior. During inference, each new transaction is passed through the model, and its reconstruction error is computed. Transactions with errors exceeding a threshold (determined from the training error distribution) are flagged as suspicious. The project simulates real-time streaming of transactions and uses a Tkinter-based graphical user interface to display results interactively. This solution demonstrates the potential of deep learning for fraud detection and provides a foundation that can be extended for cloud deployment, integration with streaming platforms like Apache Kafka, and containerized microservices architectures on platforms such as AWS, Google Cloud, or Azure.
@@ -53,8 +53,9 @@ https://github.com/user-attachments/assets/93bf90fe-f640-4d46-ad57-420a37c2bd58
 ## Dataset  
 - The system uses the [Kaggle Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud).  
 
-## Future Enhancements  
-- Integrating a more advanced deep learning model (e.g., LSTMs or Transformers).  
-- Adding cloud deployment with Flask/FastAPI for API-based fraud detection.  
-- Implementing Kafka for real-time transaction streaming at scale.  
+## Future Advancement 
+- Integrating a more advanced deep learning model  
 
+## Dev contact 
+- Ellams Nurudeen Mustapha 
+- nuruellams@outlook.com
